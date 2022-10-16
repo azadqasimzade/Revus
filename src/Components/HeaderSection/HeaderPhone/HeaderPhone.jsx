@@ -3,7 +3,7 @@ import { BsTelephoneInbound } from "react-icons/bs"
 
 const HeaderPhone = () => {
   return (
-    <div className='flex items-center'>
+    <div className='md:flex hidden items-center'>
         <div className='border-r border-[#ccc] pr-[10px]'>
             <BsTelephoneInbound size={33} className="text-primary"/>
         </div>

@@ -1,11 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import HeaderSection from "../Components/HeaderSection/HeaderSection";
+import CarDetail from "../Components/CarDetail/CarDetail";
+import Home from "../Pages/Home";
 
 const routes = () => {
   return (
     <Routes>
-        <Route path="/" element={<HeaderSection/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/:id" element={<CarDetail/>}/>
     </Routes>
   )
 };

@@ -1,0 +1,62 @@
+[
+    {
+        "id":0,
+        "title": "Audi R8",
+        "image":"https://revus.templines.org/wp-content/uploads/2019/07/2020_ford_mustang_ecoboost_high_performance_package_5k-1280x720-1-520x440.jpg",
+        "images": ["https://revus.templines.org/wp-content/uploads/2019/07/2020_ford_mustang_ecoboost_high_performance_package_5k-1280x720-1-520x440.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery07-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery06-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery05-1024x728-min-480x360.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery04-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery03-1024x728-min-480x360.jpg"],
+        "year":"2018",
+        "km":"11000",
+        "fuel": "Hybrid",
+        "price": "$55,000"
+    },
+    {
+        "id":1,
+        "title": "Ford Focus ST",
+        "image":"https://revus.templines.org/wp-content/uploads/2019/07/bmw_m8_competition_coupe_2020_5k_3-1280x720-1-520x440.jpg",
+        "images": ["https://revus.templines.org/wp-content/uploads/2019/07/bmw_m8_competition_coupe_2020_5k_3-1280x720-1-520x440.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery07-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery06-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery05-1024x728-min-480x360.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery04-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery03-1024x728-min-480x360.jpg"],
+        "year":"2019",
+        "km":"31500",
+        "fuel": "Petrol",
+        "price": "$65,000"
+    },
+    {
+        "id":2,
+        "title": "Tesla Model Y",
+        "image":"https://revus.templines.org/wp-content/uploads/2019/07/bmw_x6_m_competition_2020_5k-1280x720-1-520x440.jpg",
+        "images": ["https://revus.templines.org/wp-content/uploads/2019/07/bmw_x6_m_competition_2020_5k-1280x720-1-520x440.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery07-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery06-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery05-1024x728-min-480x360.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery04-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery03-1024x728-min-480x360.jpg"],
+        "year":"2019",
+        "km":"100",
+        "fuel": "Electric",
+        "price": "$70,000"
+    },
+    {
+        "id":3,
+        "title": "Audi S5 Sportback",
+        "image":"https://revus.templines.org/wp-content/uploads/2019/07/mercedes_benz_gle_450_4matic_amg_line_2019_4k-1280x720-1-520x440.jpg",
+        "images": ["https://revus.templines.org/wp-content/uploads/2019/07/mercedes_benz_gle_450_4matic_amg_line_2019_4k-1280x720-1-520x440.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery07-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery06-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery05-1024x728-min-480x360.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery04-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery03-1024x728-min-480x360.jpg"],
+        "year":"2019",
+        "km":"22000",
+        "fuel": "Electric",
+        "price": "$45,000"
+    },
+    {
+        "id":4,
+        "title": "Ferrari F8 Tributo",
+        "image":"https://revus.templines.org/wp-content/uploads/2019/07/2020_cadillac_ct5_premium_luxury_4k-1280x720-1-520x440.jpg",
+        "images": ["https://revus.templines.org/wp-content/uploads/2019/07/2020_cadillac_ct5_premium_luxury_4k-1280x720-1-520x440.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery07-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery06-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery05-1024x728-min-480x360.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery04-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery03-1024x728-min-480x360.jpg"],
+        "year":"2012",
+        "km":"10",
+        "fuel": "Petrol+CNG",
+        "price": "$89,000"
+    },
+    {
+        "id":5,
+        "title": "Jaguar XJ50",
+        "image":"https://revus.templines.org/wp-content/uploads/2019/07/orange_mustang_5k_3-1280x720-1-520x440.jpg",
+        "images": ["https://revus.templines.org/wp-content/uploads/2019/07/orange_mustang_5k_3-1280x720-1-520x440.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery07-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery06-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery05-1024x728-min-480x360.jpg","https://revus.templines.org/wp-content/uploads/2019/07/gallery04-1024x728-min-480x360.jpg", "https://revus.templines.org/wp-content/uploads/2019/07/gallery03-1024x728-min-480x360.jpg"],
+        "year":"2019",
+        "km":"52000",
+        "fuel": "Petrol",
+        "price": "68,000"
+    }
+]
