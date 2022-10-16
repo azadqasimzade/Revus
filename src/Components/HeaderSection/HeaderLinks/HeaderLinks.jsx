@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const HeaderLinks = () => {
   return (
-    <nav>
+    <nav className="lg:block hidden">
       <ul className="flex items-center gap-4 text-xs font-semibold">
         <li className="relative group">
           <NavLink
@@ -13,7 +13,7 @@ const HeaderLinks = () => {
           >
             Home <AiFillCaretDown size={10} className="text-[#ccc]" />
           </NavLink>
-          <ul className="absolute top-[40px] z-10 py-4 w-[167px] px-5 shadow-md border border-[#ccc]/30 font-medium translate-y-10 ease-in duration-200 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+          <ul className="absolute top-[40px] z-10 py-4 w-[167px] px-5 shadow-md border bg-white border-[#ccc]/30 font-medium translate-y-10 ease-in duration-200 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
             <li className="py-3">
               <Link to={"/"} className="hover:text-primary">
                 Dealer Demo
@@ -33,7 +33,7 @@ const HeaderLinks = () => {
           >
             Inventory <AiFillCaretDown size={10} className="text-[#ccc]" />
           </NavLink>
-          <ul className="absolute top-[40px] z-10 py-4 w-[167px] px-5 shadow-md border border-[#ccc]/30 font-medium translate-y-10 ease-in duration-200 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+          <ul className="absolute top-[40px] z-10 py-4 w-[167px] px-5 shadow-md border bg-white border-[#ccc]/30 font-medium translate-y-10 ease-in duration-200 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
             <li className="py-3">
               <Link to={"/"} className="hover:text-primary">
                 Inventory grid
@@ -66,7 +66,7 @@ const HeaderLinks = () => {
           >
             News <AiFillCaretDown size={10} className="text-[#ccc]" />
           </NavLink>
-          <ul className="absolute top-[40px] z-10 py-4 w-[167px] px-5 shadow-md border border-[#ccc]/30 font-medium translate-y-10 ease-in duration-200 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+          <ul className="absolute top-[40px] z-10 py-4 w-[167px] px-5 shadow-md border bg-white border-[#ccc]/30 font-medium translate-y-10 ease-in duration-200 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
             <li className="py-3">
               <Link to={"/"} className="hover:text-primary">
                 Blog List
