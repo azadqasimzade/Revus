@@ -25,7 +25,7 @@ const SearchSection = () => {
             </div>
             <div onClick={toggleOpen} className="w-full h-[60px] flex items-center text-[13px] py-[15px] px-5 mt-3  justify-between bg-searchCartBg hover:bg-white transition-colors hover:shadow-md cursor-pointer">
               {make}
-             <span className={`${open ? "-rotate-180" : "rotate-0"} ease-in duration-200`}><FiChevronUp /></span>
+             <span className={`${!open ? "-rotate-180" : "rotate-0"} ease-in duration-200`}><FiChevronUp /></span>
             </div>
             <ul className={`${open ? "block" : "hidden"} absolute w-full h-36 text-[13px] bg-white overflow-y-auto z-10`}>
               {searchData.map((item) => (
@@ -42,7 +42,7 @@ const SearchSection = () => {
             </div>
             <div className="w-full h-[60px] flex items-center text-[13px] justify-between bg-searchCartBg hover:bg-white transition-colors hover:shadow-md py-[15px] px-5 mt-3 cursor-pointer">
               All Models
-              <FiChevronUp />
+              <span className="-rotate-180"><FiChevronUp /></span>
             </div>
           </div>
           <div className="relative w-full">
@@ -52,7 +52,7 @@ const SearchSection = () => {
             </div>
             <div className="w-full h-[60px] flex items-center text-[13px] justify-between bg-searchCartBg hover:bg-white transition-colors hover:shadow-md py-[15px] px-5 mt-3 cursor-pointer">
               All Models
-              <FiChevronUp />
+              <span className="-rotate-180"><FiChevronUp /></span>
             </div>
           </div>
           <div className="relative w-full">
@@ -61,7 +61,7 @@ const SearchSection = () => {
             </div>
             <div className="w-full h-[60px] flex items-center text-[13px] justify-between bg-searchCartBg hover:bg-white transition-colors hover:shadow-md py-[15px] px-5 mt-3 cursor-pointer">
               All Models
-              <FiChevronUp />
+              <span className="-rotate-180"><FiChevronUp /></span>
             </div>
           </div>
           <button
